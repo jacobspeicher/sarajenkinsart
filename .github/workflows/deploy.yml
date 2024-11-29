@@ -21,7 +21,7 @@ jobs:
       - name: build
         run: npm run build
       - name: Deploy website
-        uses: garygrossgarten/github-action-scp@v0.6.3
+        uses: garygrossgarten/github-action-scp@release
         with:
           host: ${{secrets.SSH_HOST}}
           privateKey: ${{secrets.SSH_KEY}}
