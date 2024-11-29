@@ -1,0 +1,48 @@
+@font-face {
+	font-family: comfortaa-bold;
+	src: url(../../assets/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: comfortaa-light;
+	src: url(../../assets/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+	font-weight: light;
+}
+
+header {
+	display: flex;
+	background-color: var(--header-background-color);
+	color: var(--red-text-color);
+}
+
+header h1 {
+	font-family: comfortaa-bold;
+	display: flex;
+	flex-grow: 1;
+	padding: 2rem;
+	justify-content: center;
+}
+
+header nav {
+	font-family: comfortaa-light;
+	display: flex;
+	align-content: center;
+}
+
+header a {
+	padding: 2rem;
+	align-content: center;
+}
+
+header a:visited {
+	color: inherit;
+}
+
+header a:active {
+	background-color: #0005;
+}
+
+header a:hover {
+	background-color: #0008;
+}
