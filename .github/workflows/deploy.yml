@@ -1,0 +1,30 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.9
+          cache: 'npm'
+      - name: install deps
+        run: npm install
+      - name: build
+        run: npm run build
+      - name: Deploy website
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          host: ${{secrets.SSH_HOST}}
+          privateKey: ${{secrets.SSH_KEY}}
+          username: ${{secrets.SSH_USERNAME}}
+          local: ./dist
+          remote: ../../var/www/sarajenkinsartist.com/dist
