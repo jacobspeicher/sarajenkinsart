@@ -14,6 +14,9 @@ export function Header() {
 				<a href="/about" class={url == '/about' && 'active'}>
 					About
 				</a>
+				<a href="/shop" class={url == '/shop' && 'active'}>
+					Shop
+				</a>
 			</nav>
 		</header>
 	);

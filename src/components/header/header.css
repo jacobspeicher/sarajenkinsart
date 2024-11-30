@@ -24,7 +24,7 @@ header a {
 	align-content: center;
 }
 
-header a:visited {
+header a {
 	color: inherit;
 }
 
