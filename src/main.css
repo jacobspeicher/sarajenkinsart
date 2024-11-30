@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 :root {
-	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-family: "Comfortaa", sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
 
@@ -13,7 +15,7 @@
 
 	--background-color: #cbefb6;
 	--header-background-color: #38121e;
-	--green-text-color: #1b090f;
+	--green-text-color: #272524;
 	--red-text-color: #c5cdac;
 	--link-text-color: #635d5c;
 }
@@ -36,6 +38,11 @@ main {
 	max-width: 1280px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+h2 {
+	background-color: #fff;
+	padding: 0.25rem;
 }
 
 @media (max-width: 639px) {
