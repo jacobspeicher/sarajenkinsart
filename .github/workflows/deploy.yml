@@ -26,5 +26,6 @@ jobs:
           host: ${{secrets.SSH_HOST}}
           privateKey: ${{secrets.SSH_KEY}}
           username: ${{secrets.SSH_USERNAME}}
+          password: ${{secrets.SSH_PASSWORD}}
           local: ./dist
           remote: ../../var/www/sarajenkinsartist.com/dist
