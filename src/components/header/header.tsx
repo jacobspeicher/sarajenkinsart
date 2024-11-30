@@ -12,7 +12,11 @@ export function Header() {
 					Home
 				</a>
 				<a href="/about" class={url == '/about' && 'active'}>
-					About
+					About 
+				</a>
+				{/* dropdown : statement / bio / cv */}
+				<a href="/work" class={url == '/work' && 'active'}>
+					Work	
 				</a>
 				<a href="/shop" class={url == '/shop' && 'active'}>
 					Shop
