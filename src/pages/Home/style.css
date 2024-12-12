@@ -1,11 +1,12 @@
 img {
-	margin-bottom: 1.5rem;
 	width: 15%;
 	height: 15%;
+	background-color: #fff;
 }
 
-img:hover {
-	filter: drop-shadow(0 0 2em #673ab8aa);
+h3 {
+	margin-top: -.15rem;
+	padding-bottom: .5rem;
 }
 
 .home section {
