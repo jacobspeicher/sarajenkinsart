@@ -1,13 +1,36 @@
 img {
-	width: 15%;
-	height: 15%;
-	padding: 0.3rem;
+	padding: .35rem;
 	background-color: #fff;
 }
 
 h3 {
 	margin-top: -.15rem;
 	padding-bottom: .5rem;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.column {
+	flex: 30%;
+	max-width: 30%;
+	margin: auto;
+}
+
+.column img {
+	margin-top: 8px;
+	width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+		margin: auto;
+	}
 }
 
 .home section {

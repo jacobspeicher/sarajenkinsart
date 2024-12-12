@@ -1,34 +1,28 @@
-import { Fragment } from 'preact/jsx-runtime';
-import { useEffect, useState } from 'preact/hooks';
 import './style.css';
 import { Artwork } from '../../assets';
 
 export function Home() {
 	const rows = [];
-	for (let i = 0; i < Artwork.length; i += 2) {
+	for (let i = 0; i < Artwork.length; i += 3) {
 		const first = Artwork[i];
-		let second = null;
-		if (i + 1 < Artwork.length) {
-			second = Artwork[i + 1];
-		}
+		const second = i + 1 < Artwork.length ? Artwork[i + 1] : null;
+		const third = i + 2 < Artwork.length ? Artwork[i + 2] : null;
+		
 		rows.push(
-			<tr>
-				<td><Art source={first.source} name={first.name} /></td>
-				{
-					second ? 
-					<td><Art source={second.source} name={second.name} /></td> :
-					<td></td>
-				}
-			</tr>
+			<div className="column">
+				<Art source={first.source} name={first.name} />
+				{second ? <Art source={second.source} name={second.name} /> : <div className="spacer"></div>}
+				{third ? <Art source={third.source} name={third.name} /> : <div className="spacer"></div>}
+			</div>
 		);
 	}
 
 	return (
 		<div class="home">
 			<h2>Sara Jenkins makes art.</h2>
-			<table>
+			<div className="row">
 				{rows}
-			</table>
+			</div>
 		</div>
 	);
 }
@@ -42,13 +36,4 @@ function Art(props) {
 			<h3>{props.name}</h3>
 		</div>
 	)
-}
-
-function Resource(props) {
-	return (
-		<a href={props.href} target="_blank" class="resource">
-			<h2>{props.title}</h2>
-			<p>{props.description}</p>
-		</a>
-	);
 }
