@@ -1,21 +1,26 @@
 import { Fragment } from 'preact/jsx-runtime';
+import { useEffect, useState } from 'preact/hooks';
 import './style.css';
-import RunnersUp from '../../assets/runners-up.jpg';
+import { Artwork } from '../../assets';
 
 export function Home() {
 	return (
 		<div class="home">
 			<h2>Sara Jenkins makes art.</h2>
-			<Art image="assets/modern-asceticism.jpg" name="Modern Asceticism" />
-			<img src={RunnersUp} />
+			{
+				Artwork.map(({name, source}) => {
+					return <Art source={source} name={name} />
+				})
+			}
 		</div>
 	);
 }
 
 function Art(props) {
+	const artPath = `/${props.source}.jpg`;
 	return (
 		<Fragment>
-			<img src={props.image} />
+			<img src={artPath} />
 			{/* hover to view title */}
 			<h3>{props.name}</h3>
 		</Fragment>
