@@ -1,0 +1,276 @@
+{
+	"artwork": [
+		{
+			"name": "Call Time",
+			"source": "image0",
+			"dimensions": [12, 12],
+			"price": 70,
+			"year": 2020,
+			"available": 2
+		},
+		{
+			"name": "Keen",
+			"source": "image1",
+			"dimensions": [12, 12],
+			"price": 186,
+			"year": 2020,
+			"available": ""
+		},
+		{
+			"name": "Showing Up",
+			"source": "image2",
+			"dimensions": [18, 24],
+			"price": 489,
+			"year": 2020,
+			"available": ""
+		},
+		{
+			"name": "Trace II",
+			"source": "image3",
+			"dimensions": [18, 24],
+			"price": 180,
+			"year": 2020,
+			"available": ""
+		},
+		{
+			"name": "Nomenclature",
+			"source": "image4",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Plain Sight",
+			"source": "image5",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Cast",
+			"source": "image6",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Halfway Mark",
+			"source": "image7",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Make Believe",
+			"source": "image8",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Got the Message",
+			"source": "image9",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Crease",
+			"source": "image10",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "The Upside",
+			"source": "image11",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Threshold",
+			"source": "image12",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Tara",
+			"source": "image13",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Eostre",
+			"source": "image14",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Goliath",
+			"source": "image15",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Optimism",
+			"source": "image16",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "White Rock",
+			"source": "image17",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Pastoral Concerns",
+			"source": "image18",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Reassurance",
+			"source": "image19",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Prelude",
+			"source": "image20",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Affinity",
+			"source": "image21",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Catabolism",
+			"source": "image22",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Hold Out",
+			"source": "image23",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Residual",
+			"source": "image24",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Capture",
+			"source": "image25",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Withering",
+			"source": "image26",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Semblance",
+			"source": "image27",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Green Man",
+			"source": "image28",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Summer's End",
+			"source": "image29",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Tide",
+			"source": "image30",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Modern Asceticism",
+			"source": "image31",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Remains the Same",
+			"source": "image32",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		},
+		{
+			"name": "Runners Up",
+			"source": "image33",
+			"dimensions": "",
+			"price": "",
+			"year": "",
+			"available": ""
+		}
+	]
+}

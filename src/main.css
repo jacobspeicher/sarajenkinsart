@@ -42,8 +42,8 @@ main {
 }
 
 h2 {
-	background-color: #fff;
 	padding: 0.25rem;
+	border-bottom: 3px solid #fff;
 }
 
 @media (max-width: 639px) {

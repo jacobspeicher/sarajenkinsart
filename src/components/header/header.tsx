@@ -16,11 +16,15 @@ export function Header() {
 				</a>
 				{/* dropdown : statement / bio / cv */}
 				<a href="/work" class={url == '/work' && 'active'}>
-					Work	
+					Work
 				</a>
-				<a href="/shop" class={url == '/shop' && 'active'}>
-					Shop
-				</a>
+				{
+					() => (
+						<a href="/shop" class={url == '/shop' && 'active'}>
+							Shop
+						</a>
+					)
+				}
 			</nav>
 		</header>
 	);
