@@ -6,7 +6,7 @@ export function Header() {
 
 	return (
 		<header>
-			<h1>Sara Jenkins</h1>
+			<h1>SARA JENKINS</h1>
 			<nav>
 				<a href="/" class={url == '/' && 'active'}>
 					Home

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'preact/hooks';
 import './style.css';
 import ArtworkJSON from '../../assets/artwork.json';
 
@@ -9,20 +10,60 @@ interface IArtworkJSON {
 }
 
 export function Home() {
-	const Artwork = ArtworkJSON.artwork;
-	
+	const [artworkData, setArtworkData] = useState({});
+	const [artwork, setArtwork] = useState([]);
+
+	useEffect(() => {
+		const artworkByYear = {};
+
+		ArtworkJSON.artwork.forEach((art) => {
+			if (!(art.year in artworkByYear)) {
+				artworkByYear[art.year] = [];
+			}
+			artworkByYear[art.year].push(art);
+		});
+
+		setArtworkData(artworkByYear);
+	}, [])
+
+	useEffect(() => {
+		const art = [];
+
+		Object.keys(artworkData).forEach((year) => {
+			art.push(
+				<>
+					<h3 id={year} className="year">{year}</h3>
+					<div className="artworkContainer">
+						{
+							artworkData[year].map((a) => <Art source={a.source} name={a.name} />)
+						}
+					</div>
+				</>
+			)
+		});
+
+		setArtwork(art);
+	}, []);
+
 	return (
 		<div className="home">
-			<h2>Artwork</h2>
-			<div className="artworkContainer">
-				{
-					Artwork.map((art) => {
-						return (
-							<Art source={art.source} name={art.name} />
-						)
-					})
-				}
-			</div>
+			<nav className="artNav">
+				<h2 className="pageHeader">Artwork</h2>
+				<ul className="yearList">
+					{
+						Object.keys(artworkData).map((year) => {
+							return (
+								<li className="yearLink">
+									<a href={`#${year}`}>
+										{year}
+									</a>
+								</li>
+							)
+						})
+					}
+				</ul>
+			</nav>
+			{artwork}
 		</div>
 	);
 }
@@ -38,7 +79,7 @@ function Art(props) {
 					return false;
 				}}
 			/>
-			<h3>{props.name}</h3>
+			<h4 className="artName">{props.name}</h4>
 		</div>
 	)
 }

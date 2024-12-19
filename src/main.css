@@ -37,13 +37,8 @@ main {
 	align-items: center;
 	max-width: 1600px;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	flex-wrap: wrap;
-}
-
-h2 {
-	padding: 0.25rem;
-	border-bottom: 3px solid #fff;
 }
 
 @media (max-width: 639px) {

@@ -6,7 +6,7 @@
 			"dimensions": [12, 12],
 			"price": 70,
 			"year": 2020,
-			"available": 2
+			"available": 1
 		},
 		{
 			"name": "Keen",
@@ -14,7 +14,7 @@
 			"dimensions": [12, 12],
 			"price": 186,
 			"year": 2020,
-			"available": ""
+			"available": 1
 		},
 		{
 			"name": "Showing Up",
@@ -22,7 +22,7 @@
 			"dimensions": [18, 24],
 			"price": 489,
 			"year": 2020,
-			"available": ""
+			"available": 2
 		},
 		{
 			"name": "Trace II",
@@ -30,247 +30,251 @@
 			"dimensions": [18, 24],
 			"price": 180,
 			"year": 2020,
-			"available": ""
+			"available": 0
 		},
 		{
 			"name": "Nomenclature",
 			"source": "image4",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [24, 18],
+			"price": 95,
+			"year": 2020,
+			"available": 1
 		},
 		{
 			"name": "Plain Sight",
 			"source": "image5",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 84,
+			"year": 2020,
+			"available": 2
 		},
 		{
 			"name": "Cast",
 			"source": "image6",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 24],
+			"price": 130,
+			"year": 2020,
+			"available": 1
 		},
 		{
 			"name": "Halfway Mark",
 			"source": "image7",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 23.25],
+			"price": 137,
+			"year": 2021,
+			"available": 2
 		},
 		{
 			"name": "Make Believe",
 			"source": "image8",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [12, 12],
+			"price": 203,
+			"year": 2020,
+			"available": 1
 		},
 		{
 			"name": "Got the Message",
 			"source": "image9",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [8.5, 8.5],
+			"price": 128,
+			"year": 2021,
+			"available": 2
 		},
 		{
 			"name": "Crease",
 			"source": "image10",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [12, 12],
+			"price": 428,
+			"year": 2021,
+			"available": 1
 		},
 		{
 			"name": "The Upside",
 			"source": "image11",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 135,
+			"year": 2021,
+			"available": 0
 		},
 		{
 			"name": "Threshold",
 			"source": "image12",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [12, 12],
+			"price": 140,
+			"year": 2021,
+			"available": 2
 		},
 		{
 			"name": "Tara",
 			"source": "image13",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 22],
+			"price": 229,
+			"year": 2021,
+			"available": 2
 		},
 		{
 			"name": "Eostre",
 			"source": "image14",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [6.25, 11],
+			"price": 128,
+			"year": 2021,
+			"available": 1
 		},
 		{
 			"name": "Goliath",
 			"source": "image15",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [
+				[4.625, 12],
+				[12, 12],
+				[5.125, 12]
+			],
+			"price": 314,
+			"year": 2021,
+			"available": 1
 		},
 		{
 			"name": "Optimism",
 			"source": "image16",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [8, 8],
+			"price": 485,
+			"year": 2021,
+			"available": 0
 		},
 		{
 			"name": "White Rock",
 			"source": "image17",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 24],
+			"price": 229,
+			"year": 2021,
+			"available": 1
 		},
 		{
 			"name": "Pastoral Concerns",
 			"source": "image18",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 151,
+			"year": 2021,
+			"available": 2
 		},
 		{
 			"name": "Reassurance",
 			"source": "image19",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 88,
+			"year": 2021,
+			"available": 2
 		},
 		{
 			"name": "Prelude",
 			"source": "image20",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [24, 9],
+			"price": 200,
+			"year": 2021,
+			"available": 0
 		},
 		{
 			"name": "Affinity",
 			"source": "image21",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 24],
+			"price": 180,
+			"year": 2021,
+			"available": 0
 		},
 		{
 			"name": "Catabolism",
 			"source": "image22",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 85,
+			"year": 2021,
+			"available": 0
 		},
 		{
 			"name": "Hold Out",
 			"source": "image23",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [12, 12],
+			"price": 91,
+			"year": 2021,
+			"available": 1
 		},
 		{
 			"name": "Residual",
 			"source": "image24",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 24],
+			"price": 189,
+			"year": 2021,
+			"available": 1
 		},
 		{
 			"name": "Capture",
 			"source": "image25",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 199,
+			"year": 2021,
+			"available": 0
 		},
 		{
 			"name": "Withering",
 			"source": "image26",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [23, 18],
+			"price": 201,
+			"year": 2021,
+			"available": 1
 		},
 		{
 			"name": "Semblance",
 			"source": "image27",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 306,
+			"year": 2022,
+			"available": 1
 		},
 		{
 			"name": "Green Man",
 			"source": "image28",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 135,
+			"year": 2023,
+			"available": 1
 		},
 		{
 			"name": "Summer's End",
 			"source": "image29",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [4.5, 4.5],
+			"price": 187,
+			"year": 2024,
+			"available": 1
 		},
 		{
 			"name": "Tide",
 			"source": "image30",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [5, 5],
+			"price": 204,
+			"year": 2024,
+			"available": 1
 		},
 		{
 			"name": "Modern Asceticism",
 			"source": "image31",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 22],
+			"price": 198,
+			"year": 2020,
+			"available": 2
 		},
 		{
 			"name": "Remains the Same",
 			"source": "image32",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 24],
+			"price": 239,
+			"year": 2020,
+			"available": 0
 		},
 		{
 			"name": "Runners Up",
 			"source": "image33",
-			"dimensions": "",
-			"price": "",
-			"year": "",
-			"available": ""
+			"dimensions": [18, 24],
+			"price": 229,
+			"year": 2020,
+			"available": 0
 		}
 	]
 }
