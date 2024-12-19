@@ -31,6 +31,7 @@ export function Home() {
 		const art = [];
 
 		Object.keys(artworkData).forEach((year) => {
+			console.log(artworkData[year]);
 			art.push(
 				<>
 					<h3 id={year} className="year">{year}</h3>
