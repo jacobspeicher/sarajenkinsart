@@ -23,6 +23,7 @@ export function Home() {
 			artworkByYear[art.year].push(art);
 		});
 
+		console.log(artworkByYear);
 		setArtworkData(artworkByYear);
 	}, [])
 
