@@ -29,7 +29,7 @@ export function Home() {
 	useEffect(() => {
 		const art = [];
 
-		Object.keys(artworkData).forEach((year) => {
+		Object.keys(artworkData).slice().reverse().forEach((year) => {
 			art.push(
 				<>
 					<h3 id={year} className="year">{year}</h3>
@@ -51,7 +51,7 @@ export function Home() {
 				<h2 className="pageHeader">Artwork</h2>
 				<ul className="yearList">
 					{
-						Object.keys(artworkData).map((year) => {
+						Object.keys(artworkData).slice().reverse().map((year) => {
 							return (
 								<li className="yearLink">
 									<a href={`#${year}`}>
