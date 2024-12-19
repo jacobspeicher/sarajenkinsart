@@ -2,6 +2,7 @@ import { LocationProvider, Router, Route, hydrate, prerender as ssr } from 'prea
 
 import { Header } from './components/header/header';
 import { Home } from './pages/Home/index.js';
+import { About } from './pages/About/index.js';
 import { NotFound } from './pages/_404.js';
 import './main.css';
 
@@ -12,6 +13,7 @@ export function App() {
 			<main>
 				<Router>
 					<Route path="/" component={Home} />
+					<Route path="/about" component={About} />
 					<Route default component={NotFound} />
 				</Router>
 			</main>
