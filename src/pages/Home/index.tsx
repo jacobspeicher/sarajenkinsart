@@ -42,6 +42,7 @@ export function Home() {
 			)
 		});
 
+		console.log(art);
 		setArtwork(art);
 	}, []);
 
