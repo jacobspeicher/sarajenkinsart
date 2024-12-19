@@ -29,6 +29,7 @@ export function Home() {
 
 	useEffect(() => {
 		const art = [];
+		console.log(Object.keys(artworkData));
 
 		Object.keys(artworkData).forEach((year) => {
 			console.log(artworkData[year]);
