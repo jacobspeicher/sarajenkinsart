@@ -23,16 +23,13 @@ export function Home() {
 			artworkByYear[art.year].push(art);
 		});
 
-		console.log(artworkByYear);
 		setArtworkData(artworkByYear);
 	}, [])
 
 	useEffect(() => {
 		const art = [];
-		console.log(Object.keys(artworkData));
 
 		Object.keys(artworkData).forEach((year) => {
-			console.log(artworkData[year]);
 			art.push(
 				<>
 					<h3 id={year} className="year">{year}</h3>
@@ -45,9 +42,8 @@ export function Home() {
 			)
 		});
 
-		console.log(art);
 		setArtwork(art);
-	}, []);
+	}, [artworkData]);
 
 	return (
 		<div className="home">
@@ -79,7 +75,6 @@ function Art(props) {
 			<img src={artPath} onContextMenu={
 				(e) => {
 					e.preventDefault();
-					console.log('hello');
 					return false;
 				}}
 			/>
