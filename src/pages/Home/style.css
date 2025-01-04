@@ -1,102 +1,14 @@
-.artNav {
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
+.homeContent {
+	text-align: center;
 }
 
-.pageHeader {
-	font-size: 1.75vmax;
-	padding: 0.5rem;
-	flex-grow: 1;
-}
-
-.yearList {
-	font-size: 1.35vmax;
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	column-gap: 10px;
-	padding: 8px;
-}
-
-.year {
-	font-size: 1.25vmax;
-	text-align: right;
-	border-bottom: 3px solid #fff;
-}
-
-.artworkContainer {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	justify-content: space-evenly;
-	gap: 20px;
-
-}
-
-.artwork {
-	width: 20%;
-}
-
-.artName {
-	font-size: .75vmax;
-	margin-top: -.15rem;
-	padding-bottom: .5rem;
-	text-align: right;
-}
-
-img {
-	width: 100%;
-	padding: .35rem;
-	background-color: #fff;
-}
-
-.home section {
-	margin-top: 5rem;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	column-gap: 1.5rem;
+.homeContent .artwork {
+	margin: auto;
+	width: 60%;
 }
 
 @media screen and (max-width: 800px) {
-	.artNav {
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.pageHeader {
-		font-size: 2vmax;
-		margin: 0;
-	}
-
-	.yearList {
-		font-size: 1.75vmax;
-		margin: 0;
-	}
-
-	.year {
-		font-size: 1.75vmax;
-	}
-
-	.artwork {
-		width: 40%;
-	}
-
-	.artName {
-		font-size: 1vmax;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.artwork {
-		width: 60%;
-	}
-}
-
-@media (max-width: 639px) {
-	.home section {
-		margin-top: 5rem;
-		grid-template-columns: 1fr;
-		row-gap: 1rem;
+	.homeContent .artwork {
+		width: 100%;
 	}
 }
