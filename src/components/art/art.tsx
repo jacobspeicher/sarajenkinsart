@@ -1,6 +1,6 @@
 import './art.css';
 
-export function Art({ data, setModalIsOpen, setSelectedArt }) {
+export function Art({ data, setModalIsOpen, setSelectedArt, showAvailableTag = true}) {
 	const artPath = `/artwork/${data.source}.jpeg`;
 	return (
 		<div className='artwork' onClick={() => {
@@ -14,7 +14,7 @@ export function Art({ data, setModalIsOpen, setSelectedArt }) {
 				}}
 			/>
 			{
-				data.available === 1 &&
+				data.available === 1 && showAvailableTag &&
 				<span className="availableTag">Available</span>
 			}
 		</div>

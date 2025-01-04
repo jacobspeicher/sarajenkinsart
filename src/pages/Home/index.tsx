@@ -16,6 +16,7 @@ export function Home() {
 				data={artwork}
 				setSelectedArt={() => { }}
 				setModalIsOpen={() => { }}
+				showAvailableTag={false}
 			/>
 			<a className="socialLink" target="_blank" href="https://www.instagram.com/saramsjenkins">
 				<span className="fa-brands fa-instagram"></span>
