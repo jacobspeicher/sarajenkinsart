@@ -1,0 +1,15 @@
+.artwork {
+	width: 20%;
+	cursor: pointer;
+}
+
+.whiteBorder {
+	padding: .35rem;
+	background-color: #fff;
+	margin-bottom: -5px;
+}
+
+.availableTag {
+	padding: .35rem;
+	background-color: #fff;
+}

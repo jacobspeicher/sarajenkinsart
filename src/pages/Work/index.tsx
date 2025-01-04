@@ -33,7 +33,13 @@ export function Work() {
 					<h3 id={year} className="year">{year}</h3>
 					<div className="artworkContainer">
 						{
-							artworkData[year].map((a) => {
+							artworkData[year]
+								.sort((a, b) => {
+									if (b.available != 1) return -1;
+									if (a.avaialble != 1) return 1;
+									return 0;
+								})
+								.map((a) => {
 								const artworkData: IArtworkData = {
 									source: a.source,
 									name: a.name,

@@ -34,15 +34,6 @@
 
 }
 
-.artwork {
-	width: 20%;
-}
-
-.whiteBorder {
-	padding: .35rem;
-	background-color: #fff;
-}
-
 .artName {
 	font-size: .75vmax;
 	margin-top: -.15rem;

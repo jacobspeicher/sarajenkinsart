@@ -1,3 +1,5 @@
+import './art.css';
+
 export function Art({ data, setModalIsOpen, setSelectedArt }) {
 	const artPath = `/artwork/${data.source}.jpeg`;
 	return (
@@ -11,6 +13,10 @@ export function Art({ data, setModalIsOpen, setSelectedArt }) {
 					return false;
 				}}
 			/>
+			{
+				data.available === 1 &&
+				<span className="availableTag">Available</span>
+			}
 		</div>
 	)
 }
