@@ -5,6 +5,19 @@
 .homeContent .artwork {
 	margin: auto;
 	width: 60%;
+	margin-top: 25px;
+}
+
+.socialLink > * {
+	padding: 0 10px;
+	font-size: 25px;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 1920px) {
+	.homeContent .artwork {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 800px) {
