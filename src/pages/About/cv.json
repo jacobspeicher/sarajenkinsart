@@ -3,22 +3,21 @@
 		{
 			"yearStart": 2013,
 			"list": [
-				"Lead with the Arts",
-				"Collaboration with Meow Wolf"
+				"In collaboration with Meow Wolf",
+				"Albuquerque, NM"
 			],
-			"important": "Albuquerque Museum",
-			"location": "Albquerque, NM"
+			"important": "Lead with the Arts",
+			"location": "Albuquerque Museum"
 		},
 		{
-			"yearStart": 2014,
+			"yearStart": 2013,
 			"yearEnd": 2018,
 			"list": [
-				"BA in Art Studio",
-				"Second Major in English Studies",
-				"Minor in Interdisciplinary Studies from the Honors College"
+				"Minor in Interdisciplinary Studies from the Honors College",
+				"Albuquerque, NM"
 			],
-			"important": "University of New Mexico",
-			"location": "Albuquerque, NM"
+			"important": "B.A. Art Studio, B.A. English Studies",
+			"location": "University of New Mexico"
 		}
 	],
 	"awards": [
@@ -43,103 +42,103 @@
 			"yearStart": 2011,
 			"yearEnd": 2018,
 			"list": [
-				"Summer Art Teacher"
+				"Albuquerque, NM"
 			],
-			"important": "Sandia Preparatory School",
-			"location": "Albquerque, NM"
+			"important": "Summer Art Teacher",
+			"location": "Sandia Preparatory School"
 		},
 		{
 			"yearStart": 2014,
 			"yearEnd": "Present",
 			"list": [
-				"Artist"
+				"New Mexico, California, Colorado"
 			],
-			"important": "Self Employed, Contracted",
-			"location": "New Mexico, California, Colorado"
+			"important": "Artist",
+			"location": "Self Employed, Contracted"
 		},
 		{
 			"yearStart": 2018,
 			"yearEnd": 2019,
 			"list": [
-				"Private Art Tutor"
+				"San Diego, CA"
 			],
-			"important": "Superprof",
-			"location": "San Diego, CA"
+			"important": "Private Art Tutor",
+			"location": "Superprof"
 		},
 		{
 			"yearStart": 2022,
 			"yearEnd": 2023,
 			"list": [
-				"General Stagehand"
+				"Denver, CO"
 			],
-			"important": "Rhino Staging and Event Solutions",
-			"location": "Denver, CO"
+			"important": "General Stagehand",
+			"location": "Rhino Staging and Event Solutions"
 		}
 	],
 	"exhibitions": [
 		{
 			"yearStart": 2013,
 			"list": [
-				"Project Dreamscape in Collaboration with Meow Wolf"
+				"Albuquerque, NM"
 			],
-			"important": "Albuquerque Museum",
-			"location": "Albquerque, NM"
+			"important": "Project Dreamscape in Collaboration with Meow Wolf",
+			"location": "Albquerque Museum"
 		},
 		{
 			"yearStart": 2016,
 			"list": [
-				"Arts Unexpected"
+				"Albuquerque, NM"
 			],
-			"important": "University of New Mexico",
-			"location": "Albquerque, NM"
+			"important": "Arts Unexpected", 
+			"location": "University of New Mexico"
 		},
 		{
 			"yearStart": 2017,
 			"list": [
-				"Casquette Co. Art Show"
+				"Albuquerque, NM"
 			],
-			"important": "Block to Block Production",
-			"location": "Albquerque, NM"
+			"important": "Casquette Co. Art Show", 
+			"location": "Block to Block Production"
 		},
 		{
 			"yearStart": 2018,
 			"list": [
-				"Abstractionists"
+				"Albuquerque, NM"
 			],
-			"important": "University of New Mexico",
-			"location": "Albquerque, NM"
+			"important": "Abstractionists", 
+			"location": "University of New Mexico"
 		},
 		{
 			"yearStart": 2018,
 			"list": [
-				"Reposted Agitation"
+				"Albuquerque, NM"
 			],
-			"important": "Factory on 5th Art Space",
-			"location": "Albquerque, NM"
+			"important": "Reposed Agitation",
+			"location": "Factory on 5th Art Space"
 		},
 		{
 			"yearStart": 2022,
 			"list": [
-				"Pancakes and Booze Art Show"
+				"Aurora, CO"
 			],
-			"important": "Stanley Marketplace",
-			"location": "Aurora, CO"
+			"important": "Pancakes and Booze Art Show",
+			"location": "Stanley Marketplace"
 		},
 		{
 			"yearStart": 2022,
 			"list": [
-				"Untitled Exhibit"
+				"Albuquerque, NM"
 			],
-			"important": "The Sweet Cup",
-			"location": "Albquerque, NM"
+			"important": "Untitled",
+			"location": "The Sweet Cup"
 		},
 		{
 			"yearStart": 2025,
 			"list": [
-				"Women's Work"
+				"Albuquerque, NM"
 			],
-			"important": "Ghostwolf Gallery",
-			"location": "Albquerque, NM"
+			"important": "Women's Work",
+			"location": "Ghostwolf Gallery"
 		}
 	]
 }
