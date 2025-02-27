@@ -20,7 +20,8 @@ interface Experience {
 	yearEnd?: number | string;
 	list: string[];
 	important: string;
-	location: string;
+	space: string;
+	location?: string;
 }
 
 function createCVBlock(education: Experience[]) {
@@ -29,12 +30,17 @@ function createCVBlock(education: Experience[]) {
 		if (e.yearEnd) timeSpan += ` - ${e.yearEnd}`;
 		return (
 			<div className="cvBlock">
+				<span className="cvImportant">{e.important}</span>
 				<div className="cvTitle">
-					<span className="cvImportant">{e.important}</span>
-					<div className="separator" role="presentation">|</div>
 					<span>{timeSpan}</span>
 					<div className="separator" role="presentation">|</div>
-					<span>{e.location}</span>
+					<span>{e.space}</span>
+					{e.location && 
+						<Fragment>
+							<div className="separator" role="presentation">|</div>
+							<span>{e.location}</span>
+						</Fragment>
+					}
 				</div>
 				<ul>
 				{

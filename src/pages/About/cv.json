@@ -3,21 +3,20 @@
 		{
 			"yearStart": 2013,
 			"list": [
-				"In collaboration with Meow Wolf",
-				"Albuquerque, NM"
 			],
-			"important": "Lead with the Arts",
-			"location": "Albuquerque Museum"
+			"important": "Lead with the Arts (in collaboration with Meow Wolf)",
+			"space": "Albuquerque Museum",
+			"location": "Albuquerque, NM"
 		},
 		{
 			"yearStart": 2013,
 			"yearEnd": 2018,
 			"list": [
-				"Minor in Interdisciplinary Studies from the Honors College",
-				"Albuquerque, NM"
+				"Minor in Interdisciplinary Studies from the Honors College"
 			],
-			"important": "B.A. Art Studio, B.A. English Studies",
-			"location": "University of New Mexico"
+			"important": "B.A. Art Studio & English Studies",
+			"space": "University of New Mexico",
+			"location": "Albuquerque, NM"
 		}
 	],
 	"awards": [
@@ -27,14 +26,14 @@
 			"list": [
 			],
 			"important": "Toby Wright Scholarship",
-			"location": "Worker's Compensation Association of New Mexico"
+			"space": "Worker's Compensation Association of New Mexico"
 		},
 		{
 			"yearStart": 2018,
 			"list": [
 			],
 			"important": "Suma Cum Laude",
-			"location": "University of New Mexico"
+			"space": "University of New Mexico"
 		}
 	],
 	"experience": [
@@ -42,103 +41,103 @@
 			"yearStart": 2011,
 			"yearEnd": 2018,
 			"list": [
-				"Albuquerque, NM"
 			],
 			"important": "Summer Art Teacher",
-			"location": "Sandia Preparatory School"
+			"space": "Sandia Preparatory School",
+			"location": "Albuquerque, NM"
 		},
 		{
 			"yearStart": 2014,
 			"yearEnd": "Present",
 			"list": [
-				"New Mexico, California, Colorado"
 			],
 			"important": "Artist",
-			"location": "Self Employed, Contracted"
+			"space": "Self Employed, Contracted",
+			"location": "New Mexico, California, Colorado"
 		},
 		{
 			"yearStart": 2018,
 			"yearEnd": 2019,
 			"list": [
-				"San Diego, CA"
 			],
 			"important": "Private Art Tutor",
-			"location": "Superprof"
+			"space": "Superprof",
+			"location": "San Diego, CA"
 		},
 		{
 			"yearStart": 2022,
 			"yearEnd": 2023,
 			"list": [
-				"Denver, CO"
 			],
 			"important": "General Stagehand",
-			"location": "Rhino Staging and Event Solutions"
+			"space": "Rhino Staging and Event Solutions",
+			"location": "Denver, CO"
 		}
 	],
 	"exhibitions": [
 		{
 			"yearStart": 2013,
 			"list": [
-				"Albuquerque, NM"
 			],
-			"important": "Project Dreamscape in Collaboration with Meow Wolf",
-			"location": "Albquerque Museum"
+			"important": "Project Dreamscape (in collaboration with Meow Wolf)",
+			"space": "Albuquerque Museum",
+			"location": "Albuquerque, NM"
 		},
 		{
 			"yearStart": 2016,
 			"list": [
-				"Albuquerque, NM"
 			],
 			"important": "Arts Unexpected", 
-			"location": "University of New Mexico"
+			"space": "University of New Mexico",
+			"location": "Albuquerque, NM"
 		},
 		{
 			"yearStart": 2017,
 			"list": [
-				"Albuquerque, NM"
 			],
 			"important": "Casquette Co. Art Show", 
-			"location": "Block to Block Production"
+			"space": "Block to Block Production",
+			"location": "Albuquerque, NM"
 		},
 		{
 			"yearStart": 2018,
 			"list": [
-				"Albuquerque, NM"
 			],
 			"important": "Abstractionists", 
-			"location": "University of New Mexico"
+			"space": "University of New Mexico",
+			"location": "Albuquerque, NM"
 		},
 		{
 			"yearStart": 2018,
 			"list": [
-				"Albuquerque, NM"
 			],
 			"important": "Reposed Agitation",
-			"location": "Factory on 5th Art Space"
+			"space": "Factory on 5th Art Space",
+			"location": "Albuquerque, NM"
 		},
 		{
 			"yearStart": 2022,
 			"list": [
-				"Aurora, CO"
 			],
 			"important": "Pancakes and Booze Art Show",
-			"location": "Stanley Marketplace"
+			"space": "Stanley Marketplace",
+			"location": "Aurora, CO"
 		},
 		{
 			"yearStart": 2022,
 			"list": [
-				"Albuquerque, NM"
 			],
 			"important": "Untitled",
-			"location": "The Sweet Cup"
+			"space": "The Sweet Cup",
+			"location": "Albuquerque, NM"
 		},
 		{
 			"yearStart": 2025,
 			"list": [
-				"Albuquerque, NM"
 			],
 			"important": "Women's Work",
-			"location": "Ghostwolf Gallery"
+			"space": "Ghostwolf Gallery",
+			"location": "Albuquerque, NM"
 		}
 	]
 }
