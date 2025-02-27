@@ -23,7 +23,7 @@ interface Experience {
 	location: string;
 }
 
-function createEducation(education: Experience[]) {
+function createCVBlock(education: Experience[]) {
 	return education.map((e) => {
 		let timeSpan: string = `${e.yearStart}`;
 		if (e.yearEnd) timeSpan += ` - ${e.yearEnd}`;
@@ -49,10 +49,10 @@ function createEducation(education: Experience[]) {
 }
 
 function createCV(education: Experience[], awards: Experience[], experience: Experience[], exhibitions: Experience[]) {
-	const educationElements = createEducation(education);
-	const awardsElements = createEducation(awards);
-	const experienceElements = createEducation(experience);
-	const exhibitionElements = createEducation(exhibitions);
+	const educationElements = createCVBlock(education);
+	const awardsElements = createCVBlock(awards);
+	const experienceElements = createCVBlock(experience);
+	const exhibitionElements = createCVBlock(exhibitions);
 	return (
 		<div className="cv">
 			<div className="cvLeft">
