@@ -42,8 +42,29 @@ main {
 	flex-wrap: wrap;
 }
 
+a {
+	color: #373F33;
+}
+
+a:visited {
+	color: #6F5B6D;
+}
+
+a:hover{
+	background-color: #373F33;
+	color: var(--background-color);
+}
+
+.about {
+	padding: 0 30px 0 30px;
+}
+
 @media (max-width: 639px) {
 	main {
 		margin: 2rem;
+	}
+
+	.about {
+		padding: 0;
 	}
 }

@@ -34,7 +34,7 @@ export function ArtworkModal({ data, setIsOpen }: IArtworkModal) {
 						{!dimsAreNumbers &&
 							data.dimensions.map((dim) => <Dimension dim={dim} />)
 						}
-						{data.available === 1 && <p>Available: ${data.price}</p>}
+						{data.available === 1 && <p>Available: Inquire about price</p>}
 						{data.available != 1 && <p>Not Available</p>}
 					</div>
 				</div>

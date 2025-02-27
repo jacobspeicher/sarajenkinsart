@@ -8,19 +8,19 @@ export function Header() {
 		<header>
 			<h1>SARA JENKINS</h1>
 			<nav>
-				<a href="/" class={url == '/' && 'active'}>
+				<a href="/" className={'navLink ' + (url == '/' ? 'active' : '')}>
 					Home
 				</a>
-				<a href="/about" class={url == '/about' && 'active'}>
+				<a href="/about" className={'navLink ' + (url == '/about' ? 'active' : '')}>
 					About 
 				</a>
 				{/* dropdown : statement / bio / cv */}
-				<a href="/work" class={url == '/work' && 'active'}>
+				<a href="/work" className={'navLink ' + (url == '/work' ? 'active' : '')}>
 					Work
 				</a>
 				{
 					() => (
-						<a href="/shop" class={url == '/shop' && 'active'}>
+						<a href="/shop" className={'navLink ' + (url == '/shop' ? 'active' : '')}>
 							Shop
 						</a>
 					)

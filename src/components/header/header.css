@@ -19,16 +19,18 @@ header nav {
 	align-content: center;
 }
 
-header a {
+.navLink {
+	text-decoration: none;
 	padding: 1rem;
 	align-content: center;
+	color: white;
 }
 
-header a {
-	color: inherit;
+.navLink:visited {
+	color: white;
 }
 
-header a:active {
+.navLink.active {
 	background-color: #0005;
 }
 

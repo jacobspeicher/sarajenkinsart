@@ -1,0 +1,145 @@
+{
+	"education": [
+		{
+			"yearStart": 2013,
+			"list": [
+				"Lead with the Arts",
+				"Collaboration with Meow Wolf"
+			],
+			"important": "Albuquerque Museum",
+			"location": "Albquerque, NM"
+		},
+		{
+			"yearStart": 2014,
+			"yearEnd": 2018,
+			"list": [
+				"BA in Art Studio",
+				"Second Major in English Studies",
+				"Minor in Interdisciplinary Studies from the Honors College"
+			],
+			"important": "University of New Mexico",
+			"location": "Albuquerque, NM"
+		}
+	],
+	"awards": [
+		{
+			"yearStart": 2014,
+			"yearEnd": 2018,
+			"list": [
+			],
+			"important": "Toby Wright Scholarship",
+			"location": "Worker's Compensation Association of New Mexico"
+		},
+		{
+			"yearStart": 2018,
+			"list": [
+			],
+			"important": "Suma Cum Laude",
+			"location": "University of New Mexico"
+		}
+	],
+	"experience": [
+		{
+			"yearStart": 2011,
+			"yearEnd": 2018,
+			"list": [
+				"Summer Art Teacher"
+			],
+			"important": "Sandia Preparatory School",
+			"location": "Albquerque, NM"
+		},
+		{
+			"yearStart": 2014,
+			"yearEnd": "Present",
+			"list": [
+				"Artist"
+			],
+			"important": "Self Employed, Contracted",
+			"location": "New Mexico, California, Colorado"
+		},
+		{
+			"yearStart": 2018,
+			"yearEnd": 2019,
+			"list": [
+				"Private Art Tutor"
+			],
+			"important": "Superprof",
+			"location": "San Diego, CA"
+		},
+		{
+			"yearStart": 2022,
+			"yearEnd": 2023,
+			"list": [
+				"General Stagehand"
+			],
+			"important": "Rhino Staging and Event Solutions",
+			"location": "Denver, CO"
+		}
+	],
+	"exhibitions": [
+		{
+			"yearStart": 2013,
+			"list": [
+				"Project Dreamscape in Collaboration with Meow Wolf"
+			],
+			"important": "Albuquerque Museum",
+			"location": "Albquerque, NM"
+		},
+		{
+			"yearStart": 2016,
+			"list": [
+				"Arts Unexpected"
+			],
+			"important": "University of New Mexico",
+			"location": "Albquerque, NM"
+		},
+		{
+			"yearStart": 2017,
+			"list": [
+				"Casquette Co. Art Show"
+			],
+			"important": "Block to Block Production",
+			"location": "Albquerque, NM"
+		},
+		{
+			"yearStart": 2018,
+			"list": [
+				"Abstractionists"
+			],
+			"important": "University of New Mexico",
+			"location": "Albquerque, NM"
+		},
+		{
+			"yearStart": 2018,
+			"list": [
+				"Reposted Agitation"
+			],
+			"important": "Factory on 5th Art Space",
+			"location": "Albquerque, NM"
+		},
+		{
+			"yearStart": 2022,
+			"list": [
+				"Pancakes and Booze Art Show"
+			],
+			"important": "Stanley Marketplace",
+			"location": "Aurora, CO"
+		},
+		{
+			"yearStart": 2022,
+			"list": [
+				"Untitled Exhibit"
+			],
+			"important": "The Sweet Cup",
+			"location": "Albquerque, NM"
+		},
+		{
+			"yearStart": 2025,
+			"list": [
+				"Women's Work"
+			],
+			"important": "Ghostwolf Gallery",
+			"location": "Albquerque, NM"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+.cv {
+	display: flex;
+	flex-direction:row;
+	gap: 30px;
+}
+
+.cvLeft {
+	flex-grow: 1;
+}
+
+.cvRight {
+	flex-grow: 1;
+}
+
+.cvBlock {
+	display: flex;
+	flex-direction: column;
+}
+
+.cvTitle {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+}
+
+.cvImportant {
+	font-weight: bold;
+}
+
+h4 {
+	border-bottom: 2px solid white;
+}
+
+@media (max-width: 639px) {
+	.cv {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.cvTitle {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.separator {
+		display: none;
+	}
+}
