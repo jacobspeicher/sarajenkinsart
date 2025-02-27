@@ -20,6 +20,7 @@ interface Experience {
 	yearEnd?: number | string;
 	list: string[];
 	important: string;
+	important2?: string;
 	space: string;
 	location?: string;
 }
@@ -31,6 +32,7 @@ function createCVBlock(education: Experience[]) {
 		return (
 			<div className="cvBlock">
 				<span className="cvImportant">{e.important}</span>
+				{e.important2 && <span className="cvImportant">{e.important2}</span>}
 				<div className="cvTitle">
 					<span>{timeSpan}</span>
 					<div className="separator" role="presentation">|</div>
