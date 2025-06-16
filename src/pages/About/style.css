@@ -1,3 +1,22 @@
+.artistImageAndStatement {
+	display: flex;
+}
+
+.aboutImage {
+	width: 25%;
+	cursor: pointer;
+	flex-shrink: 0;
+	padding: 25px 25px 0 0;
+}
+
+.paragraphContainer {
+	padding-bottom: 10px;
+}
+
+.paragraph {
+	padding: 5px 0 5px 0;
+}
+
 .cv {
 	display: flex;
 	flex-direction:row;
@@ -32,6 +51,14 @@ h4 {
 }
 
 @media (max-width: 639px) {
+	.artistImageAndStatement {
+		flex-direction: column;
+	}
+
+	.aboutImage {
+		width: 100%;
+	}
+
 	.cv {
 		flex-direction: column;
 		gap: 0;

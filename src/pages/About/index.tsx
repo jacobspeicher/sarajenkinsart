@@ -8,7 +8,7 @@ import { Fragment } from 'preact/jsx-runtime';
 function createParagraphs(array: string[]) {
 	return array.map((e) => {
 		return (
-			<p>
+			<p className="paragraph">
 				{e}
 			</p>
 		)
@@ -82,6 +82,7 @@ function createCV(education: Experience[], awards: Experience[], experience: Exp
 export function About() {
 	const [artistStatement, setArtistStatement] = useState([]);
 	const [bio, setBio] = useState([]);
+	const aboutImagePath = "/about_image.jpg";
 
 	useEffect(() => {
 		setArtistStatement(createParagraphs(ArtistStatement.paragraphs));
@@ -110,9 +111,19 @@ export function About() {
 					</li>
 				</ul>
 			</nav>
-			<h3 id="artist-statement" className="year">Artist Statement</h3>
-			<div className="paragraphContainer">
-				{artistStatement}
+			<div className="artistImageAndStatement">
+				<img className="aboutImage" src={aboutImagePath} onContextMenu={
+					(e) => {
+						e.preventDefault();
+						return false;
+					}}
+				/>
+				<div>
+					<h3 id="artist-statement" className="year">Artist Statement</h3>
+					<div className="paragraphContainer">
+						{artistStatement}
+					</div>
+				</div>
 			</div>
 			<h3 id="cv" className="year">CV</h3>
 			<div className="paragraphContainer">
