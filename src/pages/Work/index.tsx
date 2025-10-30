@@ -18,6 +18,7 @@ export function Work() {
 			if (!(art.year in artworkByYear)) {
 				artworkByYear[art.year] = [];
 			}
+			console.log(art.year);
 			artworkByYear[art.year].push(art);
 		});
 

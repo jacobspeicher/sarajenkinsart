@@ -309,6 +309,15 @@
 			"year": 2020,
 			"available": 0,
 			"featured": false
+		},
+		{
+			"name": "Spring Winds",
+			"source": "image34",
+			"dimensions": [9.5, 9.5],
+			"price": 0,
+			"year": 2025,
+			"available": 1,
+			"featured": false
 		}
 	]
 }
