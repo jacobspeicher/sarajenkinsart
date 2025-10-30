@@ -46,6 +46,18 @@
 	font-weight: bold;
 }
 
+.collaborationCollaborator {
+	text-decoration: underline;
+}
+
+.collaborationProject {
+	padding-left: 20px;
+}
+
+.collaborationAvailable {
+	margin-top: 0px;
+}
+
 h4 {
 	border-bottom: 2px solid white;
 }

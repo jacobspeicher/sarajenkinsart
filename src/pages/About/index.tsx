@@ -21,8 +21,27 @@ interface Experience {
 	list: string[];
 	important: string;
 	important2?: string;
-	space: string;
+	space?: string;
 	location?: string;
+}
+
+interface Collaboration {
+	name: string;
+	projects: Project[];
+}
+
+interface Project {
+	name: string;
+	yearStart: number | string;
+	yearEnd?: number | string;
+	title: string;
+	medium: string;
+	available?: Link[];
+}
+
+interface Link {
+	title: string;
+	link: string;
 }
 
 function createCVBlock(education: Experience[]) {
@@ -36,7 +55,9 @@ function createCVBlock(education: Experience[]) {
 				<div className="cvTitle">
 					<span>{timeSpan}</span>
 					<div className="separator" role="presentation">|</div>
-					<span>{e.space}</span>
+					{e.space &&
+						<span>{e.space}</span>
+					}
 					{e.location && 
 						<Fragment>
 							<div className="separator" role="presentation">|</div>
@@ -56,11 +77,53 @@ function createCVBlock(education: Experience[]) {
 	});
 }
 
-function createCV(education: Experience[], awards: Experience[], experience: Experience[], exhibitions: Experience[]) {
+function createCollaborationsBlock(data: Collaboration[]) {
+	return data.map((d) => {
+		const projectElements = d.projects.map((p) => {
+			let timeSpan: string = `${p.yearStart}`;
+			if (p.yearEnd) timeSpan += ` - ${p.yearEnd}`;
+			return (
+				<div className="cvBlock collaborationProject">
+					<span className="cvImportant">{p.name}</span>
+					<div className="cvTitle">
+						<span>{timeSpan}</span>
+						<div className="separator" role="presentation">|</div>
+						<span>{p.title}</span>
+						<span className="separator" role="presentation">|</span>
+						<span>{p.medium}</span>
+					</div>
+					{p.available &&
+						<ul className="collaborationAvailable">
+							{p.available.map((a) => {
+								return <li><a href={a.link}>{a.title}</a></li>
+							})}
+						</ul>
+					}
+				</div>
+			);
+		});
+
+		return (
+			<div className="cvBlock">
+				<span className="cvImportant collaborationCollaborator">{d.name}</span>
+				{projectElements}
+			</div>
+		);
+	});
+}
+
+function createCV(
+	education: Experience[],
+	awards: Experience[],
+	experience: Experience[],
+	exhibitions: Experience[],
+	collaborations: Collaboration[]
+) {
 	const educationElements = createCVBlock(education);
 	const awardsElements = createCVBlock(awards);
 	const experienceElements = createCVBlock(experience);
 	const exhibitionElements = createCVBlock(exhibitions);
+	const collaborationsElements = createCollaborationsBlock(collaborations);
 	return (
 		<div className="cv">
 			<div className="cvLeft">
@@ -74,6 +137,8 @@ function createCV(education: Experience[], awards: Experience[], experience: Exp
 			<div className="cvRight">
 				<h4>Selected Exhibitions</h4>
 				{exhibitionElements}
+				<h4>Collaborations</h4>
+				{collaborationsElements}
 			</div>
 		</div>
 	);
@@ -127,7 +192,7 @@ export function About() {
 			</div>
 			<h3 id="cv" className="year">CV</h3>
 			<div className="paragraphContainer">
-				{createCV(CV.education, CV.awards, CV.experience, CV.exhibitions)}
+				{createCV(CV.education, CV.awards, CV.experience, CV.exhibitions, CV.collaborations)}
 			</div>
 			<h3 id="biography" className="year">Biography</h3>
 			<div className="paragraphContainer">

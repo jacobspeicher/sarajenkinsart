@@ -13,3 +13,8 @@
 -   `npm run build` - Builds for production, emitting to `dist/`. Prerenders all found routes in app to static HTML
 
 -   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
+
+## copying images to server
+
+- use pscp
+    - pscp `filename` `PuTTY session`:`destination filepath & name`
