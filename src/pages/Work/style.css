@@ -22,7 +22,7 @@
 .year {
 	font-size: 1.25vmax;
 	text-align: right;
-	border-bottom: 3px solid #fff;
+	border-bottom: 3px solid var(--header-background-color);
 }
 
 .artworkContainer {

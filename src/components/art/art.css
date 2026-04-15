@@ -5,7 +5,7 @@
 
 .whiteBorder {
 	padding: .35rem;
-	background-color: #fff;
+	background-color: var(--header-background-color);
 	margin-bottom: -5px;
 }
 
